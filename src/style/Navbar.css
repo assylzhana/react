@@ -1,46 +1,72 @@
 .navbar {
-    background-color: #333;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    width: 30px;
-    margin-right: 10px;
-  }
-  
-  .logo span {
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-  
-  .nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-right: 15px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  
-  .nav-links a:hover {
-    color: #ffcc00;
-  }
-  
+  position: relative;
+}
+.link{
+  text-decoration: none;
+  color: #070000;
+}
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+  display: flex; 
+}
+
+.nav-links li {
+  display: inline-block; 
+  margin-right: 20px; 
+}
+
+
+.happy-client {
+  display: flex;
+  align-items: center; 
+}
+
+.logo-img {
+  width: 150px; 
+  height: auto;
+  margin-right: 10px; 
+
+}
+
+
+.profile {
+  position: absolute;
+  width: 216px;
+  height: 85px;
+  left: 414px;
+  top: 20px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+
+.settings {
+  position: absolute;
+  width: 216px;
+  height: 85px;
+  left: 713px;
+  top: 20px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.order {
+  position: absolute;
+  width: 216px;
+  height: 85px;
+  left: 559px;
+  top: 20px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}

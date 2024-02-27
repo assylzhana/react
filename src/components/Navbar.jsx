@@ -5,18 +5,24 @@ import '../style/Navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">
-        <span>My Logo</span>
-      </div>
+      <div className="happy-client">
+          <img src="/images/logo.png" alt="logo" className="logo-img" />
+        </div>
       <ul className="nav-links">
         <li>
-          <Link to="/">Home</Link>
+          <div className="profile">
+            <Link className="link"  to="/">Profile</Link>
+          </div>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <div className="settings">
+            <Link className="link" to="/">Settings</Link>
+          </div>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <div className="order">
+            <Link className="link"  to="/">Order</Link>
+          </div>
         </li>
       </ul>
     </nav>
